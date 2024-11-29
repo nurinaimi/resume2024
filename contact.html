@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/stylecss.css">
+</head>
+<body>
+<iframe src="audio.html" style="display:none;" allow="autoplay"></iframe>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+ 				<li><a href="biodata.html">Biodata</a></li>
+				<li><a href="education.html">Education</a></li>
+                <li><a href="involvement.html">Academic Involvement</a></li>
+				<li><a href="work.html">Work Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+	<div id="dark-mode-toggle-wrapper">
+        <input type="checkbox" id="dark-mode-toggle">
+	</div>
+	
+	<div id="audio-player-wrapper">
+        <button id="audio-toggle">
+            <img src="images/play.jpg" alt="Play" id="audio-icon">
+        </button>
+        <audio id="background-audio" loop>
+            <source src="audio/seventeen6.mp3" type="audio/mp3">
+            <source src="audio/seventeen6.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    </header>
+	
+<main>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p><strong>Email:</strong> aiminurin0@gmail.com</p>
+                <p><strong>Phone:</strong> 019-9792399</p>
+                <p><strong>Address:</strong> No.34, Jalan Mutiara 1, Taman Mutiara, 34200, Parit Buntar, Perak.</p>
+                <div class="social-media">
+                    <a style="text-decoration:none;" href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.jpg" alt="Instagram"> 
+                    </a><p>@nrinaimi_</p>
+                    <a style="text-decoration:none;" href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.jpg" alt="Facebook"> 
+                    </a><p>Aimi Malek</p>
+                    <a style="text-decoration:none;" href="https://linkedin.com" target="_blank">
+                        <img src="images/linkedin.jpg" alt="LinkedIn">
+                    </a><p>Nurin Aimi</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Resume</p>
+    </footer>
+<script src="java/script.js"></script>
+</body>
+</html>
