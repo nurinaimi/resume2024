@@ -386,7 +386,6 @@ body.biodata .image-section img {
     }
 }
 
-/* Dark mode toggle button styles */
 #dark-mode-toggle {
     background: linear-gradient(135deg, #6c5ce7, #a29bfe);
     color: #ffffff;
@@ -400,25 +399,21 @@ body.biodata .image-section img {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Hover effect for the dark mode button */
 #dark-mode-toggle:hover {
     background: linear-gradient(135deg, #a29bfe, #6c5ce7);
     transform: translateY(-2px);
 }
 
-/* Active state (when the dark mode is on) */
 body.dark-mode #dark-mode-toggle {
     background: linear-gradient(135deg, #00b894, #55efc4);
     border: 2px solid #55efc4;
     color: #ffffff;
 }
 
-/* Smooth transition effect for dark mode background and text */
 body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Dark mode background and text */
 body.dark-mode {
     background-color: #121212;
     color: #f1f1f1;
@@ -428,14 +423,12 @@ body.dark-mode {
     color: #333;
 }
 
-/* Header and footer in dark mode */
 body.dark-mode header,
 body.dark-mode footer {
     background-color: #2d3436;
     color: #ffffff;
 }
 
-/* Links in dark mode */
 body.dark-mode a {
     color: #81ecec;
     transition: color 0.3s ease;
@@ -445,8 +438,6 @@ body.dark-mode a:hover {
     color: #00b894;
 }
 
-
-/* Dark mode switch button */
 #dark-mode-toggle-wrapper {
     position: fixed;
     top: 20px;
@@ -473,7 +464,6 @@ body.dark-mode a:hover {
     background-color: #00b894;
 }
 
-/* The slider circle inside the switch */
 #dark-mode-toggle::before {
     content: '';
     position: absolute;
@@ -487,22 +477,19 @@ body.dark-mode a:hover {
 }
 
 #dark-mode-toggle:checked::before {
-    transform: translateX(25px); /* Move to the right */
+    transform: translateX(25px);
 }
 
-/* Optional: Hover effect */
 #dark-mode-toggle:hover {
     background-color: #81ecec;
 }
 
-/* Audio player wrapper */
 #audio-player-wrapper {
     display: inline-block;
     margin-left: 10px;
     position: relative;
 }
 
-/* Audio button */
 #audio-toggle {
     background-color: transparent;
     border: none;
@@ -512,14 +499,12 @@ body.dark-mode a:hover {
     align-items: center;
 }
 
-/* Audio icon */
 #audio-toggle img {
     width: 24px;
     height: 24px;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Change icon color on hover */
 #audio-toggle:hover img {
     transform: scale(1.1);
     filter: brightness(1.2);
